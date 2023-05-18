@@ -3,8 +3,8 @@ public class Circle extends Shape{
         super(name);
     }
 
-    public void getName(String name) {
-        System.out.println(name);
+    Circle circle = new Circle("Circle");
+System.out.println(circle.getName());
 
     }
 }
