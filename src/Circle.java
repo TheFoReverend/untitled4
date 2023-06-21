@@ -1,5 +1,10 @@
-public class Circle extends Shape{
-  
+package main.java;
+
+public class Circle extends Shape {
+    {
+        System.out.println(" У коді нижче будуть представлені фігури різного типу:");
+    }
+
     private int radius;
 
 
@@ -23,4 +28,3 @@ public class Circle extends Shape{
                 '}';
     }
 }
-
